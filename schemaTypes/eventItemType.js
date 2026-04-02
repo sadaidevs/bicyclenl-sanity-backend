@@ -23,12 +23,19 @@ export const eventItemType = defineType({
         defineField({
           name:'startTime',
           title: 'Start time',
-          type:'time'  
+          type:'datetime'  
         }),
         defineField({
           name:'experienceClass',
           title: 'Experience class',
-          type:'string'  
+          type: "string",
+          options:{
+            list:[
+                {title: "beginner", value:"Beginner"},
+                {title: "intermediate", value:"Intermediate"},
+                {title: "experienced", value:"Experienced"}
+            ]
+          }
         })
     ]
 })

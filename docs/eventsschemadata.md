@@ -3,4 +3,4 @@ Event data schema
     - event location (string)
     - event date (date)
     - Start time (time)
-    - (Possible) experience class (ie. beginner, moderate, experienced) (string)
+    - experience class (ie. beginner, intermediate, experienced) (options)
