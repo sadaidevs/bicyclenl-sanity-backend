@@ -1,4 +1,4 @@
-// schemas/news.ts
+
 export default {
   name: 'news',
   title: 'News Article',
