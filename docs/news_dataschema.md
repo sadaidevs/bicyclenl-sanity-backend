@@ -1,0 +1,11 @@
+News Article Schema
+    - title (string, required)
+    - slug (string, required)
+    - excerpt (text)
+    - content (blockContent, required)
+    - featuredImage (image)
+    - author (string)
+    - tags (array)
+    - publishedAt (datetime, required)
+    - relatedEvent (reference, optional)
+    - externalLink (url, optional)
