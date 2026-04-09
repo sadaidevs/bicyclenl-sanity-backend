@@ -1,6 +1,6 @@
 export default {
   name: 'page',
-  title: 'Page',
+  title: 'Pages',
   type: 'document',
   fields: [
     { name: 'title', type: 'string' },
@@ -11,7 +11,6 @@ export default {
       type: 'array',
       of: [
         { type: 'section' },
-        { type: 'reference', to: [{ type: 'sharedSection' }] }
       ]
     }
   ]

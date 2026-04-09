@@ -21,7 +21,7 @@ export const portableTextBlock = {
         name: 'link',
         type: 'object',
         title: 'Link',
-        fields: [{ name: 'href', type: 'url', title: 'URL' }]
+        fields: [{ name: 'href', type: 'string', title: 'URL' }]
       }
     ]
   }
